@@ -17,7 +17,7 @@
 
 #landing {
   display: flex;
-  position: sticky;
+  position: -webkit-sticky;
   top: -85vh;
   padding: 30px 30px 30px 120px;
   height: 100vh;
@@ -33,7 +33,7 @@
 }
 
 #title {
-  position: sticky;
+  position: -webkit-sticky;
   top: 30px;
   line-height: 3.3rem;
 }
@@ -69,7 +69,7 @@
 .fav {
   font-size: 2rem;
   padding-right: 120px;
-  position: sticky;
+  position: -webkit-sticky;
   top: 70px;
 }
 
