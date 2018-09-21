@@ -1,0 +1,247 @@
+#content {
+  font-family: 'Raleway', sans-serif;
+}
+
+#heading {
+  display: relative;
+  top: 300px;
+  position: fixed;
+  /*top: 300px*/
+}
+
+.heading .divider {
+  background-color: black;
+  height: 3px;
+  width: 100%;
+}
+
+#landing {
+  display: flex;
+  position: sticky;
+  top: -85vh;
+  padding: 30px 30px 30px 120px;
+  height: 100vh;
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.border {
+  border-bottom: white solid 2px;
+}
+
+#title {
+  position: sticky;
+  top: 30px;
+  line-height: 3.3rem;
+}
+
+#sean {
+  padding-bottom: 10px;
+}
+
+#writer {
+  display: inline;
+}
+
+.big {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.small {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.alsobig {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.alsosmall {
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.fav {
+  font-size: 2rem;
+  padding-right: 120px;
+  position: sticky;
+  top: 70px;
+}
+
+.fav i {
+  padding-left: 10px;
+
+}
+
+
+
+nav {
+  display: flex;
+  position: fixed;
+  font-family: 'Raleway', sans-serif;
+  right: -180px;
+  top: 55vh;
+  transform: rotate(270deg);
+  height: 50px;
+  width: 60vh;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.whitebackground {
+  background-color: white;
+}
+
+.greybackground {
+  background-color: grey;
+}
+
+nav .element {
+  font-size: 0.75rem;
+}
+
+#maincontent {
+  margin-top: 30px;
+}
+
+#biography {
+  display: flex;
+  flex-direction: column;
+  margin: 0 120px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.sections {
+  padding-left: 180px;
+}
+
+#sectionone,
+#sectiontwo,
+#sectionthree,
+#sectionfour {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+#sectionone .imagecontainer {
+  height: 340px;
+  padding-right: 30px;
+}
+
+#sectiontwo .imagecontainer {
+  height: 260px;
+  padding-left: 30px;
+}
+
+#sectionthree .imagecontainer {
+  height: 260px;
+  padding-left: 30px;
+}
+
+#sectionfour .imagecontainer {
+  height: 250px;
+  padding-right: 30px;
+}
+
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#filmography {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+  height: 72vh;
+  border-top: white solid 2px;
+  z-index: 100;
+}
+
+#filmography .movie {
+  display: flex;
+  align-items: center;
+}
+
+#filmography .inner {
+  margin: 0 120px;
+  padding-right: 30px;
+  max-height: 100%;
+}
+
+#filmography .info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+#filmography h1 {
+  margin-left: 120px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#donovan {
+}
+
+.description {
+  width: 55%;
+  max-height: 100%;
+}
+
+.movie .filling {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+
+}
+
+.movie .images {
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
+
+}
+
+#filmography .images .imagecontainer {
+  display: flex;
+  justify-content: flex-end;
+  height: 320px;
+}
+
+.imagecontainer img {
+  max-height: 100%;
+}
