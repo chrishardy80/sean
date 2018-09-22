@@ -148,7 +148,7 @@ nav {
   }
 
   #filmography {
-    
+
   }
 
 }
@@ -181,7 +181,7 @@ nav .element {
 
 #biography {
   display: flex;
-  flex-direction: column;
+
   margin: 0 120px;
 }
 
@@ -199,37 +199,28 @@ p {
   padding-left: 180px;
 }
 
-#sectionone,
-#sectiontwo,
-#sectionthree,
-#sectionfour {
-  display: flex;
-  padding-bottom: 10px;
-}
-
 #sectionone .imagecontainer {
-  height: 340px;
-  padding-right: 30px;
+  height: 315px;
+  padding-right: 20px;
+  float: left;
 }
 
 #sectiontwo .imagecontainer {
-  height: 260px;
-  padding-left: 30px;
+  height: 200px;
+  padding-left: 20px;
+  float: right;
+}
+
+#sectiontwo .images {
+  display: flex;
+  flex-direction: column;
+  float: right;
 }
 
 #sectionthree .imagecontainer {
-  height: 260px;
-  padding-left: 30px;
-}
-
-#sectionfour .imagecontainer {
-  height: 250px;
-  padding-right: 30px;
-}
-
-.textcontainer {
-  display: flex;
-  flex-direction: column;
+  height: 280px;
+  padding-right: 20px;
+  float: left;
 }
 
 #filmography {
