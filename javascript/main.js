@@ -86,7 +86,7 @@ function inViewport($el) {
 
 $(window).on("scroll resize", function(){
   var favThing = $("div.fav");
-  if (inViewport($('#landing')) < 220 ) {
+  if (inViewport($('#landing')) < 350 ) {
     $(favThing).fadeIn(1800);
     $('#sean').switchClass('big', 'small', 1800);
     $('#writer').switchClass('alsobig', 'alsosmall', 1800);

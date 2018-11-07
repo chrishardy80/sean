@@ -154,9 +154,14 @@ nav {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    #navigation {
+      font-size: 30px;
+
+    }
+
     .navone {
-      width: 90vh;
-      left: 15vw;
+      width: 75vh;
+      left: 28vw;
       top: 50vh;
     }
 
