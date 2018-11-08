@@ -86,18 +86,18 @@ function inViewport($el) {
 
 $(window).on("scroll resize", function(){
   var favThing = $("div.fav");
-  if (inViewport($('#landing')) < 350 ) {
+  if (inViewport($('#landing')) < 500 ) {
     $(favThing).fadeIn(1800);
     $('#sean').switchClass('big', 'small', 1800);
     $('#writer').switchClass('alsobig', 'alsosmall', 1800);
-    $('#navigation').switchClass('navone', 'navtwo', 1800);
+    /*$('#navigation').switchClass('navone', 'navtwo', 1800);*/
 
   }
   else {
     $(favThing).fadeOut(1800);
     $('#sean').switchClass('small', 'big', 1800);
     $('#writer').switchClass('alsosmall', 'alsobig', 1800);
-    $('#navigation').switchClass('navtwo', 'navone', 1800);
+    /*$('#navigation').switchClass('navtwo', 'navone', 1800);*/
   }
   if (inViewport($('#biography')) > 600 ) {
     $('#heading').fadeIn(500);
