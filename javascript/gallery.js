@@ -18,7 +18,7 @@ function showDivsRight(n) {
   for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
   }
-  $(x[slideIndex-1]).stop().show("drop", {distance: 400}, 800);
+  $(x[slideIndex-1]).stop().show("drop", {direction: "left", distance: 400}, 800);
 
 }
 
