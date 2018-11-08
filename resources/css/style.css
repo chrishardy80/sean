@@ -46,7 +46,7 @@ a {
 #title {
   position: sticky;
   position: -webkit-sticky;
-  top: 50vh;
+  top: 30px;
   line-height: 3.3rem;
   width: 60%;
 }
