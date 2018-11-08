@@ -1,4 +1,6 @@
-body {
+body,
+#maincontent,
+#content {
   width: 100%;
 }
 
@@ -44,7 +46,7 @@ a {
 #title {
   position: sticky;
   position: -webkit-sticky;
-  top: 30px;
+  top: 50vh;
   line-height: 3.3rem;
   width: 60%;
 }
