@@ -296,9 +296,12 @@ p {
   z-index: 100;
 }
 
+#moviecontainer {
+  width: 95%;
+}
+
 #filmography .movie {
-  position: absolute;
-  margin-top: 60px;
+  display: flex;
   align-items: center;
 }
 
