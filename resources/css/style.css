@@ -119,6 +119,7 @@ nav {
 }
 
 #navigation {
+  display: none;
   position: fixed;
   font-family: 'Raleway', sans-serif;
 
@@ -296,9 +297,7 @@ p {
   z-index: 100;
 }
 
-#moviecontainer {
-  width: 95%;
-}
+
 
 #filmography .movie {
   display: flex;
